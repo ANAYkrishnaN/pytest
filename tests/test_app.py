@@ -18,6 +18,7 @@ class TestApp:
     def test_division(self, numbers):
         res = divide_by_two(numbers[1])
         assert res == numbers[0]
-    def test_custom_calculation():
-      result = multiply_by_two(0)  # 0 * 2 = 0
-      assert result == 0  # The expected output is the last two digits of the student ID
+def test_custom_calculation():
+    result = multiply_by_two(0)  
+    assert result == 0  
+
